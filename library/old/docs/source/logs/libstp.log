@@ -1,0 +1,18 @@
+[17:29:59] [+1744219799] [t12/default] [] [info]: Logging to directory: /docs/source/logs
+[17:30:01] [+1744219801] [t12/default] [] [debug]: Arguments passed to script: -M html source build
+[17:30:01] [+1744219801] [t12/default] [] [debug]: Detected 0 / 4 arguments passed to script
+[18:57:47] [+1744225067] [t12/default] [] [info]: Logging to directory: /docs/source/logs
+[18:57:51] [+1744225071] [t12/default] [] [debug]: Arguments passed to script: -M html source build
+[18:57:51] [+1744225071] [t12/default] [] [debug]: Detected 0 / 4 arguments passed to script
+[19:17:26] [+0.011s] [t12/default] [info]: Logging to directory: /docs/source/logs
+[19:17:29] [+2.932s] [t12/default] [debug]: Arguments passed to script: -M html source build
+[19:17:29] [+2.932s] [t12/default] [debug]: Detected 0 / 4 arguments passed to script
+[20:26:46] [+0.000s] [t12/default] [info]: Logging to directory: /docs/source/logs
+[20:26:48] [+0.000s] [t12/default] [debug]: Arguments passed to script: -M html source build
+[20:26:48] [+0.000s] [t12/default] [debug]: Detected 0 / 4 arguments passed to script
+[14:17:41] [+0.000s] [t12/default] [info]: Logging to directory: /docs/source/logs
+[14:17:45] [+0.000s] [t12/default] [debug]: Arguments passed to script: -M html source build
+[14:17:45] [+0.000s] [t12/default] [debug]: Detected 0 / 4 arguments passed to script
+[20:45:00] [+0.000s] [t12/default] [info]: Logging to directory: /docs/source/logs
+[20:45:03] [+0.000s] [t12/default] [debug]: Arguments passed to script: -M html source build
+[20:45:03] [+0.000s] [t12/default] [debug]: Detected 0 / 4 arguments passed to script

@@ -1,0 +1,16 @@
+{
+  "name": "Roboter",
+  "run_script": "run.sh",
+  "args": [
+    {
+      "type": "bool",
+      "name": "calibrate",
+      "initial": true
+    },
+    {
+      "type": "bool",
+      "name": "wait-for-light",
+      "initial": true
+    }
+  ]
+}

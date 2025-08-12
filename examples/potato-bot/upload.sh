@@ -1,0 +1,1 @@
+rsync -avz --progress ./ pi@192.168.100.237:/home/pi/programs/high-level-program

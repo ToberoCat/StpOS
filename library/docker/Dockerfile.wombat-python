@@ -1,0 +1,16 @@
+# This dockerfile creates a docker image with libstp installed. The specialty is that it tries to replicate the environment of the wombat.
+
+FROM arm64v8/python:3.9-bullseye
+LABEL authors="Tobias Madlberger"
+
+RUN pip install sphinx sphinx-rtd-theme
+
+COPY . /app
+WORKDIR /app/binaries
+
+RUN dpkg -i create3-0.1.0-Linux.deb
+RUN dpkg -i kipr-1.2.0-Linux.deb
+
+WORKDIR /app
+
+RUN pip install dist/libstp-1.0.0-cp39-cp39-linux_aarch64.whl # Needs to be built first

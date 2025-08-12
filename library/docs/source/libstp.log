@@ -1,0 +1,3 @@
+[16:47:50] [t12/default] [] [info]: Logging to file: /docs/source/libstp.log
+[16:47:53] [t12/default] [] [debug]: Arguments passed to script: -M html source build
+[16:47:53] [t12/default] [] [debug]: Detected 0 / 4 arguments passed to script

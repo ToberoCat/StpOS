@@ -1,0 +1,33 @@
+name: stpvelox
+description: "StpVelox is the new environment running on the wombat - Fast and Sleek"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.1.0
+  equatable: ^2.0.7
+  get_it: ^8.0.2
+  bloc: ^9.0.0
+  path: ^1.8.0
+  xterm: ^4.0.0
+  pty: ^0.1.1
+  collection: ^1.17.0
+  fl_chart: ^1.0.0
+  sleek_circular_slider: ^2.1.0
+  flutter_cube: ^0.1.1
+  shared_preferences: ^2.5.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/

@@ -1,0 +1,5 @@
+add_subdirectory(two_wheeled)
+add_subdirectory(omni_wheeled)
+
+add_library(libstp_devices INTERFACE)
+target_link_libraries(libstp_devices INTERFACE libstp_device_two_wheeled libstp_device_omni_wheeled)

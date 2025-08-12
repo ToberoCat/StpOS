@@ -1,0 +1,3 @@
+[submodule "ui/flutter-pi"]
+	path = ui/flutter-pi
+	url = git@github.com:ardera/flutter-pi.git

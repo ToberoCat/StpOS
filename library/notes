@@ -1,0 +1,2 @@
+- TO compute the driven distance, dont use the ticks directly - Use the heading to compute the direction to make the distance calculation heading independent
+- each and every method call should have a forced requirement on how long it will take at a maximum, throwing the max iters reached exception

@@ -1,0 +1,19 @@
+{
+  "name": "My Project",
+  "run_script": "run.sh",
+  "args": [
+    {
+      "type": "number",
+      "name": "stuff",
+      "initial": 100,
+      "min": 90,
+      "max": 110,
+      "step": 0.5
+    },
+    {
+      "type": "bool",
+      "name": "stuff2",
+      "initial": true
+    }
+  ]
+}

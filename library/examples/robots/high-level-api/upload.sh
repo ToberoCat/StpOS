@@ -1,0 +1,1 @@
+rsync -avz --progress ./ pi@10.20.30.67:/home/pi/programs/tobi
