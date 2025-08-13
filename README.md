@@ -45,6 +45,7 @@ The repo is divided into three main parts:
 * **`ui/`** — Wombat controller UI
 * **`library/`** — The C++/Python hybrid monster (`LibStp`) powering robots mid-run
 * **`examples/`** — Full source of our **GCER 2025** bot (*Potato Bot*)
+* **`image-creator/`** - Documentation on how to create a stpos image from scratch
 
 ## A Word of Warning
 

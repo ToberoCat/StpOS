@@ -1,0 +1,12 @@
+#!/bin/bash
+
+BOOT0=17
+RST=23
+GPIOCHIP=0
+
+echo "resetting co-processor..."
+
+# Toggle RST: 1 -> 0 -> 1
+gpioset gpiochip${GPIOCHIP} ${RST}=1
+gpioset gpiochip${GPIOCHIP} ${RST}=0
+gpioset gpiochip${GPIOCHIP} ${RST}=1

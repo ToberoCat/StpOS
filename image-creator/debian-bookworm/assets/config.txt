@@ -1,0 +1,43 @@
+# ---------- 800×480 HDMI LCD ---------- 
+framebuffer_width=800
+framebuffer_height=480
+hdmi_force_hotplug=1           # output even if EDID is bad
+hdmi_group=2
+hdmi_mode=87                   # “DMTcustom”
+hdmi_cvt 800 480 60 6 0 0 0    # CVT timing for 60Hz
+hdmi_ignore_edid=0xa5000080    # ignore bogus EDID
+
+# ---------- Core peripherals ----------
+dtparam=i2c_arm=on
+dtparam=spi=on
+enable_uart=1
+dtoverlay=pi3-disable-bt
+
+# ---------- Touchscreen ----------
+dtoverlay=tsc2007,irq-gpio=25,x-plate-ohms=300
+
+# ---------- Audio ----------
+dtoverlay=hifiberry-dac        # external DAC
+# dtparam=audio=on            # ***commented out*** to avoid conflict
+
+# ---------- Graphics ----------
+dtoverlay=vc4-kms-v3d
+max_framebuffers=2
+# ***Early video: choose ONE of the following***
+disable_fw_kms_setup=0         # let firmware add video=HDMI-A-1:800x480@60
+# (OR) keep it as 1 and add the same video string manually in cmdline.txt
+
+# ---------- Stock Bookworm defaults ----------
+camera_auto_detect=1
+display_auto_detect=1
+auto_initramfs=1
+arm_64bit=1
+disable_overscan=1
+arm_boost=1
+
+[cm4]
+otg_mode=1
+[cm5]
+dtoverlay=dwc2,dr_mode=host
+[all]
+

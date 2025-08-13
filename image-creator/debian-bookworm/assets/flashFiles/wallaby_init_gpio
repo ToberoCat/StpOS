@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# GPIO numbers
+BOOT0=17
+RST=23
+GPIOCHIP=0
+
+echo "Initializing GPIOs..."
+
+# Initialize BOOT0 to low
+gpioset gpiochip${GPIOCHIP} ${BOOT0}=0
+
+# Initialize RST to high
+gpioset gpiochip${GPIOCHIP} ${RST}=1
