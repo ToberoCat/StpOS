@@ -3,6 +3,7 @@
 ![StpOs Main Page](./assets/stpos-main.png)
 
 > Developed for Botball. Battle-tested at ECERs and GCERs. Released for anyone crazy enough to try it.
+> More screenshots can be found in the `assets/` folder
 
 StpOS is the operating system from **HTL St. Pölten**, primarily developed by **Tobias Madlberger**.
 It's the core of our robotics systems - a true Frankenstein’s monster of code, stitched together from old repos, hard drive folders, and long lost prototypes.
