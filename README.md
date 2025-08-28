@@ -38,9 +38,15 @@ Once it’s ready for daylight, the improved version will also be **open-sourced
 
 The new version will be an actual plug-and-play system.
 
-## Image Download Link
+## About the OS itself
 
-[Google Drive OS Image](https://drive.google.com/file/d/1rmbLGlc6lTqmyeEW4bo3VWqcZ30lUt-8/view?usp=sharing)
+Download link: [Google Drive OS Image](https://drive.google.com/file/d/1rmbLGlc6lTqmyeEW4bo3VWqcZ30lUt-8/view?usp=sharing)
+
+Technical Dt boots significantly faster (~20 30 seconds total), is based on Debian Bookworm (instead of Bullseye), has full support for libwallaby. When installing, it may require reflashing the Wombat with the modified firmware that includes the gyro fix (Already in the flashfiles folder). Compatibleetails: The UI is written in Flutter a cross-platform framework typically used for mobile/web apps. Instead of using a window manager or X11/Wayland, the app is rendered directly to the framebuffer via a custom embedder, eliminating the need for a desktop environment. This reduces system overhead and boot time while keeping the UI highly responsive and visually modern. 
+
+Current UI Work-in-Progress: Wi-Fi Access Point toggle and LAN mode, better Wi-Fi management UI, improved motor and servo control UIs, camera integration.
+
+Note: No web UI is included yet; To get to the console, you have to go to `Settings > Hide UI`. User is `pi`, password is `raspberrypi` - External keyboard needed.
 
 ## Project Structure
 
