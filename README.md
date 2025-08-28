@@ -38,6 +38,10 @@ Once it’s ready for daylight, the improved version will also be **open-sourced
 
 The new version will be an actual plug-and-play system.
 
+## Image Download Link
+
+[Google Drive OS Image](https://drive.google.com/file/d/1rmbLGlc6lTqmyeEW4bo3VWqcZ30lUt-8/view?usp=sharing)
+
 ## Project Structure
 
 The repo is divided into three main parts:
