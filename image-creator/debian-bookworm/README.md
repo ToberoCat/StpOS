@@ -61,7 +61,7 @@ MNT_ROOT="/media/tobias/rootfs"
 ```
 
 ```bash
-`sed -i 's/# CONFIG_TOUCHSCREEN_TSC2007 is not set/CONFIG_TOUCHSCREEN_TSC2007=m/' .config
+sed -i 's/# CONFIG_TOUCHSCREEN_TSC2007 is not set/CONFIG_TOUCHSCREEN_TSC2007=m/' linux/.config
 sudo cp assets/tsc2007-overlay.dts linux/arch/arm64/boot/dts/overlays/tsc2007-overlay.dts
 sudo cp assets/Makefile linux/arch/arm64/boot/dts/overlays/Makefile`
 ```
