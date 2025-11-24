@@ -53,7 +53,7 @@ Note: No web UI is included yet; To get to the console, you have to go to `Setti
 
 Flash the image onto your wombat via balena etcher or another sd card flashing program and boot the device.
 
-Download link: [Drive OS Image]([https://drive.google.com/file/d/1rmbLGlc6lTqmyeEW4bo3VWqcZ30lUt-8/view?usp=sharing](https://drive.proton.me/urls/HPKWDA7JXR#OrWUikstTrXF)
+Download link: [Drive OS Image](https://drive.proton.me/urls/HPKWDA7JXR#OrWUikstTrXF)
 
 ## Project Structure
 
